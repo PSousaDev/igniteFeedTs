@@ -8,15 +8,18 @@
   --gray-800: #202024;
   --gray-900: #121214;
 
-  --green-300: #00B37E;
+  --green-300: #00b37e;
   --green-500: #00875f;
 
-  --red-500: #F75A68;
+  --violet-700: #7f0799;
+  --violet-300: #9649cb;
+
+  --red-500: #f75a68;
 }
 
 :focus {
   outline: transparent;
-  box-shadow: 0 0 0 2px var(--green-500);
+  box-shadow: 0 0 0 2px var(--violet-700);
 }
 
 * {
@@ -31,7 +34,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-body, input, textarea, button {
+body,
+input,
+textarea,
+button {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1rem;
